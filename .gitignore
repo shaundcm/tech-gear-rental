@@ -1,0 +1,47 @@
+# Python-specific ignores
+__pycache__/
+*.py[cod]
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+ENV/
+*.egg-info/
+dist/
+build/
+*.whl
+
+# Oracle database ignores
+*.sql.bak
+*.log
+*.trc
+*.trm
+*.dmp
+*.ora
+
+# Sensitive files
+.env
+*.env
+credentials.py
+config.py
+secrets.json
+
+# IDE and editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.code-workspace
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Miscellaneous
+*.bak
+*.swp
+*~
+*.tmp
+temp/
